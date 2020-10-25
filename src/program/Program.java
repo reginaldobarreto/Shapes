@@ -53,7 +53,7 @@ public class Program {
         System.out.println();
         System.out.println("Shape Areas");
         for (Shape obj:list) {
-            System.out.println("Color: " + obj.getColor() + String.format(" - Area: %.2f%n",obj.area()));
+            System.out.print("Color: " + obj.getColor() + String.format(" - Area: %.2f%n",obj.area()));
         }
     }
 }
